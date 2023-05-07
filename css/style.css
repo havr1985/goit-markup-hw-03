@@ -1,0 +1,218 @@
+:root{
+    --body-text-color:#434455;
+    --header-text-color:#2E2F42;
+    --primary-brend-color:#4D5AE5;
+    --pressed-state-color:#404BBF;
+    --primary-color-white:#ffffff;
+    --light-mode-color: #F4F4FD;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:var(--primary-color-white);
+    color:var(--body-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/*Header*/
+.main{
+    border-bottom: 1px solid #E7E9FC;
+}
+.conteiner{
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: solid 1px tomato;
+}
+.logo{
+    color:var(--primary-brend-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav .item:not(:last-child){
+    margin-right: 40px;
+}
+
+.logoelement{
+    color: var(--header-text-color);
+}
+.site-nav{
+    display: flex;
+    margin-left: 76px;
+}
+.site-nav .link{
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    color: var(--header-text-color);
+    font-weight: 500;
+
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--pressed-state-color);
+}
+.kontakts{
+    font-style: normal;
+}
+.kontakts-list{
+    display: flex;
+    margin-left: 332px;
+}
+.kontakts-list .item + .item{
+    margin-left: 40px;
+}
+.kontakts-list .link{
+    color:var(--body-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.kontakts-list .link:hover,
+.kontakts-list .link:focus{
+     color: var(--pressed-state-color);
+}
+/*Hero*/
+.hero{
+    background-color:var(--header-text-color);
+    text-align: center;
+    height: 600px;
+}
+.hero-title{
+    padding-top: 188px;
+    color: var(--primary-color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-btn{
+    display: inline-block;
+    margin-top: 48px;
+    padding: 16px 42px;
+    border-radius: 4px;
+
+    background-color: var(--primary-brend-color);
+    color: var(--primary-color-white);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--pressed-state-color);
+}
+/*Sections*/
+.section{
+    padding-top: 120px;
+}
+.section-title{
+    color:var(--header-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.advantage{
+    display: flex;
+}
+.advantage-title,
+.team-title,
+.project-title{
+    color:var(--header-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-text{
+    font-size: 16px;
+}
+
+.team-list{
+    background-color: var(--primary-color-white);
+}
+.teambg{
+    background-color: var(--light-mode-color);
+}
+
+/*Footer*/
+.bottow{
+    background-color: var(--header-text-color);
+}
+.bottow-text{
+    color:var(--light-mode-color) ;
+}
+.logo-bottow{
+    color: var(--primary-brend-color);
+    font-family: Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-el-footer{
+    color: var(--light-mode-color);
+}
+/*Portfolio page*/
+.filter-btn{
+    background-color: var(--light-mode-color);
+    color: var(--primary-brend-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--pressed-state-color);
+    color: var(--primary-color-white);
+}
+.projects .link{
+    
+    color: inherit;
+}
