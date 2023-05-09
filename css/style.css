@@ -120,6 +120,8 @@ body{
 }
 .hero-title{
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--primary-color-white);
     font-weight: 700;
     font-size: 56px;
@@ -132,6 +134,8 @@ body{
     border: none;
     min-width: 169px;
     height: 56px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 48px;
     padding: 16px 42px;
     border-radius: 4px;
